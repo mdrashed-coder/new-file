@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+
+}
+img{
+    max-width: 100%;
+}
+.continar{
+    max-width: 1280px;
+    height: auto;
+    padding: 20px;
+    }
+header{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+
+}
+.log span {
+    font-size: 25px;
+    font-weight: 700;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+header .manu{
+    display: flex;
+    
+}
+header .manu a{
+    margin: 5px 5px;
+    color: black;
+    display: flex;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    transition-duration: 1s;
+    
+}
+header .manu a:hover{
+    background: rgb(213, 213, 213);
+    color: black;        
+}
+header .fa-brands {
+   font-size: 25px;
+   background: green;
+   border: 5px;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+header .fa-brands:hover{
+    color: white;
+    background: gray;
+    
+}
+/* Hero section desing */
+
+.hero-section {
+    background-image: url(/studio-intro.jpg);
+    height: 90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(24, 191, 130, 0.1);
+    background-size: cover;    
+        
+}
+.continar{
+    max-width: 100%;
+    height: 100%;
+    text-align: left center;
+    background: rgba(24, 191, 130, 0.3);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+.hero-section .text-section span{
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.hero-section .text-section h2{
+    max-width: 700px;       
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.hero-section .text-section a{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    background: tomato;
+    margin-top: 20px;
+    color: white;
+}
+.author{
+    text-align: center;
+     padding: 100px ;
+
+}
+.author h4{
+    font-weight: bold;
+    background: rgb(219, 219, 219);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;   
+
+}
+.author h2{
+    padding: 30px;
+    font-size: 25px;
+}
+.author p{
+    font-size: 18px;
+}
+.card{
+    text-align: center;
+    padding: 20px;
+
+
+
+}
+.card-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    margin-top: 15px;
+
+}
+.card {
+    text-align: center;
+    padding: 30px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.card i {
+    font-size: 50px;
+    display: block;
+    color: green;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.card span {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+.card p{
+    color: rgb(68, 68, 68);
+
+}
+.top-sell{
+    background: rgb(224, 224, 224);
+    padding: 100px ;
+}
+.top-sell p{
+    padding-bottom: 10px;
+}
+.left-side, .right-side{
+    background: rgb(244, 243, 243);
+    border-radius: 20px;
+
+}
+.img-section {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    padding: 30px;
+    
+}
+.sell-card{
+    text-align: center;
+    padding: 30px;
+
+}
+.sell-card .fa-solid{
+    font-size: 60px;
+    color: green;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.sell-card span{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+    display: block;
+
+    
+}
+.sell-card p{
+    color: rgb(42, 42, 42);
+    padding-bottom: 10px;
+
+}
+.sell-card a{
+    color: rgb(42, 42, 42);
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    background-color: rgb(210, 210, 210);
+    border-radius: 5px;
+}
+
