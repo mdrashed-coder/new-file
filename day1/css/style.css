@@ -217,3 +217,9 @@ header .fa-brands:hover{
     border-radius: 5px;
 }
 
+footer{
+    background: gray;
+    text-align: center;
+    padding: 10px;
+
+}
