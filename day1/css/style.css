@@ -61,6 +61,17 @@ header .fa-brands:hover{
     background: gray;
     
 }
+/* media  query desing */
+/* Mobile default */
+
+@media (min-width: 768px) {
+  /* Tablet */
+}
+
+@media (min-width: 1024px) {
+  /* Desktop */
+}
+/* ..................................... */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .example {background: red;}
@@ -88,7 +99,7 @@ header .fa-brands:hover{
 /* Hero section desing */
 
 .hero-section {
-    background-image: url(/studio-intro.jpg);
+    background-image: url(https://builder.pixfort.com/items/1/images/studio/studio-intro.jpg);
     height: 90vh;
     background-position: center center;
     background-repeat: no-repeat;
@@ -151,15 +162,12 @@ header .fa-brands:hover{
     text-align: center;
     padding: 20px;
 
-
-
 }
 .card-section{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding-top: 30px;
-    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px   ;
 
 }
 .card {
@@ -185,12 +193,36 @@ header .fa-brands:hover{
     color: rgb(68, 68, 68);
 
 }
+/* query selotor card  */
+
+@media (min-width: 768px) {
+  /* Tablet */
+  .card-section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;    
+    align-items: center;
+
+  }
+
+}
+
+@media (min-width: 1024px) {
+  /* Desktop */
+  .card-section{
+    padding: 100px;
+
+  }
+
+
+}
+
 .top-sell{
     background: rgb(224, 224, 224);
-    padding: 100px ;
+    padding: 70px ;
 }
 .top-sell p{
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 .left-side, .right-side{
     background: rgb(244, 243, 243);
@@ -199,9 +231,10 @@ header .fa-brands:hover{
 }
 .img-section {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     gap: 20px;
-    padding: 30px;
+    padding-top: 10px;
+    
     
 }
 .sell-card{
@@ -240,10 +273,428 @@ header .fa-brands:hover{
     background-color: rgb(210, 210, 210);
     border-radius: 5px;
 }
+@media (min-width: 768px){
+
+    .img-section{
+        flex-direction: row-reverse;
+        padding-top: 30px;
+    }
+}
 
 footer{
     background: gray;
     text-align: center;
     padding: 10px;
 
+}   
+.mega-continer{
+    padding: 50px;    
 }
+.text h2{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+    padding-bottom: 10px;
+
+}
+.text h5{
+    font-weight: 700;
+    background: rgb(255, 151, 53);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+.text p{
+    font-size: 18px;
+    color: rgb(29, 29, 29);
+    padding-bottom: 30px;
+
+}
+.text .box{
+    border: 2px solid rgb(234, 234, 234);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+
+}
+.text .box .fa-solid {
+    font-size: 50px;
+    color: rgb(32, 32, 32);
+
+}
+.mega-text h4{
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+.mega-text P{
+    color: rgb(42, 42, 42);
+}
+.mega-text a{
+    background: rgb(106, 106, 106);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;   
+    
+}
+.mega-text a:hover{
+    background: rgb(23, 23, 23);
+}
+/* media  query desing */
+/* Mobile default */
+
+@media (min-width: 768px) {
+  /* Tablet */
+  .mega-continer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    
+  }
+  .image{
+    max-width: 400px;    
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Desktop */
+    .mega-continer{
+    gap: 20px;
+    padding: 70px;
+    
+  }
+  .image{
+    max-width: 500px;    
+  }
+
+}
+.form-section{
+    background-image: url(https://builder.pixfort.com/items/1/images/studio/studio-form-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.form-continer{
+    background: rgba(4, 63, 4, 0.706);
+    padding: 50px;
+}
+.form{
+    max-width: 500px;
+    background: white;
+    color: rgb(14, 14, 14);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+.top-text{
+    text-align: center;
+    padding: 50px;
+
+
+}
+.top-text span{
+    font-size: 14px;
+    background-color: rgb(242, 242, 242); 
+    padding: 8px;  
+    border-radius: 5px;
+    font-weight: bold;
+
+
+}
+.top-text h2{
+    padding: 50px auto;
+    margin: 20px auto ;
+
+}
+.top-text p{
+    font-size: 18px;
+    line-height: 25px;
+}
+form{
+    margin-top: 20px;
+}
+form input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form input:last-child{
+    background: #FF7243;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+.form p{
+    text-align: center;
+    font-size: 18px;
+}
+@media (min-width: 768px) {
+  /* Tablet */
+  .top-text h2{
+    font-size: 25px;
+  }
+
+}
+@media (min-width: 1024px) {
+  /* Desktop */
+   .top-text h2{
+    font-size: 30px;
+  }
+  .top-text p{
+    font-size: 20px;
+  }
+}
+.trusted{
+    background: #dcdcdc;  
+}    
+.trusted-img img{
+    width: 300px;
+ 
+    margin: 0 auto;
+
+}
+.trusted-img{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  /* Tablet */
+  .trusted-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;    
+  }
+  .trusted-img img{
+    max-width: 300px;
+  }
+
+}
+@media (min-width: 1024px) {
+  /* Desktop */
+  .trusted-img{
+    flex-wrap: wrap;
+  }
+  .trusted-img img{
+    width: 400px;
+  }
+  
+}
+.Question-continer{
+    padding: 80px 30px;
+}
+
+.Question-top{
+    border: 2px solid rgb(135, 135, 135);
+    padding: 20px;
+    text-align: center;   
+    border-radius: 10px;
+
+}
+.Question-top i{
+    font-size: 30px;
+    padding: 20px 20px;
+    margin: 0 auto;
+    border: 2px tomato solid;
+    border-radius: 50%;
+    margin: auto;
+    
+}
+.Question-top h2{
+    font-size: 24px;
+    line-height: 2;
+
+}
+.Question-top p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    
+}
+.Question-top a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: violet;
+    font-weight: 700;
+    border-radius: 5px;    
+}
+.Question-top a:hover{
+    background: rgb(226, 83, 226);    
+}
+.Question-continer{
+    display: flex;
+    flex-direction: column;
+}
+.Question-under{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    padding: 50px;
+}
+.Question-under .qut h3{
+    font-size: 20px;
+    line-height: 2;       
+}
+@media (min-width: 768px) {
+  /* Tablet */
+  .Question-continer{
+    flex-direction: row;
+    gap: 20px;
+    padding: 50px;
+  }
+
+}
+@media (min-width: 1024px) {
+  /* Desktop */
+    .Question-continer{
+    padding: 100px; 
+
+  }
+}
+
+.apple{
+    text-align: center;
+    background: url(https://builder.pixfort.com/items/1/images/studio/studio-testimonials-bg.jpg);
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.apple-continer{
+    background: rgba(3, 62, 3, 0.632);
+
+}
+.apple-text{
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.apple-continer .fa-apple{
+    font-size: 60px;
+    color: white;
+    padding-bottom: 10px;
+}
+.apple-continer p{
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+.apple-continer .fa-star{
+    font-size: 15px;
+    color: rgb(240, 186, 10);
+
+}
+.apple-continer span{
+    font-size: 20px;
+
+}
+.apple-continer a{
+    padding: 10px 20px;
+    background: rgb(243, 68, 33);
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+
+
+}
+.apple-continer a:hover{
+    background: rgb(247, 51, 12);
+    
+
+
+}
+@media (min-width: 768px) {
+  /* Tablet */
+  .apple-text{
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 30px   ;
+  }
+  .apple-continer .fa-apple{
+    font-size: 70px;
+  }
+  .apple-continer p{
+    font-size: 20px;
+  }
+  .apple-continer span{
+    font-size: 24px;
+  }
+
+
+}
+@media (min-width: 1024px) {
+  /* Desktop */
+  .apple-continer{
+    padding: 50px;
+  }
+    
+}
+.massage-continer{
+    padding: 50px 30px;
+    text-align: center;
+    display: flex;
+    gap: 20px ;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.massage-continer p{
+    font-size: 16px;
+
+}
+.massage-continer span{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(59, 57, 57);
+    font-size: 18px;
+}
+.lst-section .massage-continer a{
+    border: 2px solid gray;
+    padding: 10px 20px ;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: rgb(41, 41, 41);
+
+
+}
+.lst-section .massage-continer a:hover{
+    border: 2px solid rgb(60, 60, 60);
+
+}
+@media (min-width: 768px) {
+  /* Tablet */
+  .massage-continer{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+  }
+}
+
+
