@@ -696,5 +696,77 @@ form input:last-child{
     align-items: center;    
   }
 }
+footer{
+    background: rgb(217, 217, 217);
 
+}
+
+.footer-continer{
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left; 
+    gap: 20px ;   
+
+}
+.logo{
+    text-align: left;
+    color: rgb(62, 62, 62);
+    padding-bottom: 30px;
+}
+.logo i{
+    font-size: 25px;
+    padding: 20px;
+}
+.footer-continer a{
+    display: block;
+    color: rgb(62, 62, 62);
+    text-align: left;
+    line-height: 1.5;
+    padding: 10px;
+}
+.footer-continer a:hover{
+    background: rgb(185, 185, 185);
+
+}
+.footer-continer  .social-media {
+    color: rgb(62, 62, 62);
+    text-align: left;
+    font-size: 20px;
+
+}
+.footer-continer  .social-media {
+    color: rgb(62, 62, 62);
+    text-align: left;
+    font-size: 20px;
+    
+}
+.footer-continer  .social-media i {
+    cursor: pointer;
+}
+.footer-continer  .social-media i:hover {
+    color: rgb(21, 21, 21);   
+}
+@media (min-width: 1024px) {
+  /* Desktop */
+  .footer-continer{
+    flex-direction: row;
+    justify-content: space-around;    
+  }
+  .footer-continer a{
+    font-size: 18px;  
+    
+  }
+  .footer-continer p{
+    font-size: 20px;  
+
+  }
+  .footer-continer .logo i{
+    font-size: 30px;  
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+    
+}
 
